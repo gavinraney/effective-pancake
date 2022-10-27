@@ -2,7 +2,7 @@
 CIS 486 Final Product
 
 
-<b>Watcha wanna eat?</b>
+<b>Whatcha Wanna Eat?</b>
 
 
 <p> <b><i> As a... </b></i>hungry and indecisive person</p>
