@@ -2,7 +2,7 @@
 CIS 486 Final Product
 
 
-<b>Whatcha Wanna Eat?</b>
+<h1 style="font-size:300%;">Whatcha Wanna Eat?</h1>
 
 <hr>
 
