@@ -1,6 +1,4 @@
-# effective-pancake
-CIS 486 Final Product
-
+# effective-pancake CIS 486 Final Product
 
 <h1 style="font-size:300%;">Whatcha Wanna Eat?</h1>
 
