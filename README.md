@@ -15,7 +15,7 @@ CIS 486 Final Product
 <ul>
   <li> Starting small with questions about things like types of cuisine, narrowing down options heavily to start (possibly checkboxes for multiple choices?) </li>
   <li> Savory? Sweet? Balanced meal? </li>
-  <li> Dining in? Drive thru? Flexible? <li>
+  <li> Dining in? Drive thru? Flexible? </li>
   <li> Portion sizes? </li>
   <li> Photos of food </li>
   <li> Sound good? Y/N </li>
