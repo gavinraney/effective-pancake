@@ -22,7 +22,7 @@ CIS 486 Final Product
   <li> Sound good? Y/N </li>
       <ul> 
           <li> If yes, send a text with a link to Waze, Google Maps, or Apple Maps with the restuarant's address </li>
-          <li> If no, more questions. </li>
+          <li> If no, restart questions. </li>
       </ul>
 </ul>
 
@@ -35,7 +35,7 @@ CIS 486 Final Product
   <li> Sound good? Y/N </li>
       <ul> 
           <li> If yes, send a text with a link to Waze, Google Maps, or Apple Maps with the restuarant's address </li>
-          <li> If no, more questions. </li>
+          <li> If no, restart questions. </li>
       </ul>
 </ul>
 
@@ -45,6 +45,6 @@ CIS 486 Final Product
   <li> Sound good? Y/N </li>
       <ul> 
           <li> If yes, send a text with a link to Waze, Google Maps, or Apple Maps with the restuarant's address </li>
-          <li> If no, generate a new random choice. </li>
+          <li> If no, restart questions. </li>
       </ul>
 </ul>
