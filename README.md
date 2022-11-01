@@ -6,9 +6,9 @@ CIS 486 Final Product
 
 <h1>User Story</h1>
 
-<p> <b><i> As a... </b></i>hungry and indecisive person</p>
-<p> <b><i> I want... </b></i>to make a decision</p> 
-<p> <b><i> So that... </b></i>I can eat.</p>
+<p> <b><i> As a... </b></i>hungry and indecisive person, couple, or group</p>
+<p> <b><i> I/We want... </b></i>to make a decision</p> 
+<p> <b><i> So that... </b></i>I/we can eat.</p>
 
 <h1> Three Methods of Choosing and Questions for Users</h1>
 <h3><u> A Series of Questions: </h3></u>
@@ -17,7 +17,7 @@ CIS 486 Final Product
   <li> Savory? Sweet? Balanced meal? </li>
   <li> Dining in? Drive thru? Flexible? </li>
   <li> Price range? ($-$$$) </li>
-  <li>  </li>
+  <li> Type of meat? (Chicken, beef, pork, fish)</li>
   <li> Photos of food </li>
   <li> Sound good? Y/N </li>
       <ul> 
