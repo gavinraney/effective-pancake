@@ -17,7 +17,7 @@ CIS 486 Final Product
   <li> Savory? Sweet? Balanced meal? </li>
   <li> Dining in? Drive thru? Flexible? </li>
   <li> Price range? ($-$$$) </li>
-  <li> Portion sizes? </li>
+  <li>  </li>
   <li> Photos of food </li>
   <li> Sound good? Y/N </li>
       <ul> 
@@ -30,7 +30,7 @@ CIS 486 Final Product
 <ul>
   <li> Beginning by asking users to choose a color </li>
   <li> Inputting a number (maybe length of name, something related to name of restaurant) </li>
-  <li> Have you eaten today? (may dictate portions/meal size/price) </li>
+  <li> Have you eaten today? (may dictate meal size/price) </li>
   <li> <u> <b> more to come </li> </u> </b>
   <li> Sound good? Y/N </li>
       <ul> 
