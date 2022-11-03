@@ -1,0 +1,32 @@
+<!-- header include -->
+<%- include('include/header')%>
+<!-- /header include -->
+<div class="container">
+        <h2>Restaurant Selection Process</h2>
+
+        <p>1. Please choose a protein: </p>
+        <form>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+            <label class="form-check-label" for="radio1">Beef</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+            <label class="form-check-label" for="radio2">Chicken</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input">
+            <label class="form-check-label">Seafood</label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          <br />
+          <br />
+        </form> 
+        <p> there will be more questions but here is the concept </p>
+        <br />
+        <button class="button" onclick="window.location.href='/';"> Home</button>
+</div>
+
+<!-- footer include -->
+<%- include('include/footer')%>
+<!-- /footer include -->
