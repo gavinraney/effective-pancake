@@ -30,7 +30,7 @@ app.get('/questions', (req,res)=>{
     res.render('questions');
 })
 
-app.get('/aboutus', (req,res)=>{
+app.get('/', (req,res)=>{
     res.render('aboutus');
  })
 
