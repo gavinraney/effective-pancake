@@ -30,6 +30,10 @@ app.get('/questions', (req,res)=>{
     res.render('questions');
 })
 
+app.get('/aboutus', function(req, res){
+    res.render('aboutus');
+ })
+
 // app.listen(PORT, ()=>{console.log(`Server is running on http://localhost:${PORT}`)});
 
 app.listen(process.env.PORT || 3000, 
