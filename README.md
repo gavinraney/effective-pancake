@@ -17,10 +17,9 @@
 <ul>
   <li> Starting small with questions about things like types of cuisine, narrowing down options heavily to start (possibly checkboxes for multiple choices?)
   ex. American, Mexican, Asian, Italian</li>
-  <li> Savory? Sweet? Balanced meal? </li>
-  <li> Dining in? Drive thru? Flexible? </li>
+  <li> Beef? Chicken? Pork? </li>
+  <li> < >1 Mi? <3 Mi? <5 Mi? <10 Mi? </li>
   <li> Price range? ($-$$$) </li>
-  <li> Portion sizes? ex. Very hungry, Hungry, Just a bit peckish</li>
   <li> Photos of food </li>
   <li> Sound good? Y/N </li>
       <ul> 
