@@ -4,9 +4,9 @@
 
 <h1>User Story</h1>
 
-<p> <b><i> As a... </b></i>hungry and indecisive person</p>
-<p> <b><i> I want... </b></i>to make a decision</p> 
-<p> <b><i> So that... </b></i>I can eat.</p>
+<p> <b><i> As a... </b></i>hungry and indecisive person, couple, or group</p>
+<p> <b><i> I/We want... </b></i>to make a decision</p> 
+<p> <b><i> So that... </b></i>I/we can eat.</p>
 
 <h1>What We're Doing</h1>
 
