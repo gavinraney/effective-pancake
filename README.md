@@ -10,7 +10,7 @@
 
 <h1>What We're Doing</h1>
 
-<p>Have you ever tried to decide somewhere to eat but nothing just jumps out to you? Maybe you asked someone what they wanted to eat and they gave you the ever so helpful <i>"Whatever"</i> answer? Our app takes out the uncertainty of deciding what to chow down on! By creating a user profile and answering a few questions to narrow down your choices, the app will give you a suggestion of where to go. If you like the choice and click <i>"yes"</i> the app will send you more information on the restaurant for your trip. If you don't want what was suggested you may feel free to say <i>"no"</i> and start over for another option. If you're really feeling like experimenting, click the <i>"random"</i> button for a randomly generated restaurant, no questions involved!</p>
+<p>Have you ever tried to decide somewhere to eat but nothing just jumps out to you? Maybe you asked someone what they wanted to eat and they gave you the ever so helpful <i>"Whatever"</i> answer? Our app takes out the uncertainty of deciding what to chow down on! By answering a few simple questions to narrow down your choices, just click <i>"EAT!"</i> our suggestion engine will give you one or more choices of where to go. If you like one of the choices and click <i>"yes"</i> the app will send you more information on the restaurant for your trip. If you don't want what was suggested you may feel free to say <i>"no"</i> and start over for another option. If you're really feeling like experimenting, click the <i>"random"</i> button for a randomly generated restaurant, no questions involved!</p>
 
 <h1> Three Methods of Choosing and Questions for Users</h1>
 <h3><u> A Series of Questions: </h3></u>
