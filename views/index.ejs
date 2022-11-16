@@ -6,13 +6,14 @@
 
   <div class="grid-container-1">
     <div class="grid-item">
-      <button class="button" id = "beef"> Beef </button>
+      <button class="button" id = "beef" onclick=" var cursor = restaurantsCollection.find({ meat: b });
+      "> Beef </button>
     </div>
     <div class="grid-item">
-      <button class="button" id = "chicken"> Chicken </button>
+      <button class="button" id = "chicken" onclick=" var cursor = restaurantsCollection.find({ meat: c });"> Chicken </button>
     </div>
     <div class="grid-item">
-      <button class="button" id="pork"> Pork </button>
+      <button class="button" id="pork" onclick=" var cursor = restaurantsCollection.find({ meat: p });"> Pork </button>
     </div>  
   </div>
 
@@ -63,7 +64,8 @@
 
 <div class="container">
   <div class="grid-container-3">
-    <button class="button" onclick="window.location.href='/show_food';">EAT!!!</button>
+    <button class="button" onclick="window.location.href='/show_food'; await cursor.forEach(console.log)
+    ;">EAT!!!</button>
   </div>
 </div>
 <!-- footer include -->
