@@ -4,20 +4,17 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const { urlencoded } = require('body-parser');
-// const MongoClient = require('mongodb').MongoClient
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const client = new MongoClient(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+
 const app = express();
 const { ObjectId } = require('mongodb');
 
 //setting view engine
 app.set("view engine", "ejs")
 
-// dotenv.config({ path: 'config.env' });
-
 app.use(bodyParser.urlencoded({ extended: true }))
 
-// dotenv.config({ path: 'config.env' });
 //const PORT = process.env.PORT || 8080
 
 console.log('here');
