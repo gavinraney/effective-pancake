@@ -75,5 +75,3 @@ MongoClient.connect(process.env.MONGO_URI, {
     .catch(error => console.error(error));
 
     // app.listen(PORT, ()=>{console.log(`Server is running on http://localhost:${PORT}`)});
-
-
