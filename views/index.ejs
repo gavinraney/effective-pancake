@@ -6,13 +6,13 @@
 
   <div class="grid-container-1">
     <div class="grid-item">
-      <button class="button" id = "beef" onclick=" var cursor = await client.db.restaurantsCollection.find({ meat:{ b } });"> Beef </button>
+      <button class="button" id = "beef" onclick= "var cursor = client.db('wwe').collection('restaurants').find({ restaurants: { $meat: 'b' } }); var results = cursor.toArray();"> Beef </button>
     </div>
     <div class="grid-item">
-      <button class="button" id = "chicken" onclick=" var cursor = await restaurantsCollection.find({ meat: c });"> Chicken </button>
+      <button class="button" id = "chicken" onclick=" var cursor = client.db.restaurantsCollection.find({ restaurants: { $meat: 'c' } });"> Chicken </button>
     </div>
     <div class="grid-item">
-      <button class="button" id="pork" onclick=" var cursor = await restaurantsCollection.find({ meat: p });"> Pork </button>
+      <button class="button" id="pork" onclick=" var cursor = client.db.restaurantsCollection.find({ restaurants: { $meat: 'p' } });"> Pork </button>
     </div>  
   </div>
 
@@ -63,7 +63,7 @@
 
 <div class="container">
   <div class="grid-container-3">
-    <button class="button" onclick="window.location.href='/show_food'; (console.log(cursor));">EAT!!!</button>
+    <button class="button" onclick="window.location.href='/show_food'; (console.log(results[0]));">EAT!!!</button>
   </div>
 </div>
 <!-- footer include -->
