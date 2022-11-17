@@ -20,7 +20,7 @@ async function cxnDB(){
     try{
       client.connect;
       const collection = client.db("wwe").collection("restaurants");
-      // const result = await collection.dropIndex().toArray();
+      const result = await collection.createIndex().toArray();
   
       console.log("cxnDB result:", result);
       return result;
@@ -39,7 +39,7 @@ async function cxnDB(){
   app.get('/', async (req, res) => {
   
     let restaurantData = await cxnDB().catch(console.error);
-    console.log("get/:", restaurantData); 
+    console.log("/:", restaurantData); 
     res.render('index.ejs', {
        
        })
