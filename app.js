@@ -24,11 +24,8 @@ console.log('here');
 console.log(process.env.MONGO_URI);
 
 app.get('/', async function (req, res) {
-
-
     // client.connect; 
     console.log('connected'); 
-
     res.render('index');
    })
 
