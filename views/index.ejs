@@ -1,18 +1,19 @@
 <!-- header include -->
 <%- include('include/header')%>
 <!-- /header include -->
+
 <br />
 <div class="container">
 
   <div class="grid-container-1">
     <div class="grid-item">
-      <button class="button" id = "beef"> Beef </button>
+      <button class="button" id = "b"> Beef </button>
     </div>
     <div class="grid-item">
-      <button class="button" id = "chicken"> Chicken </button>
+      <button class="button" id = "c"> Chicken </button>
     </div>
     <div class="grid-item">
-      <button class="button" id="pork"> Pork </button>
+      <button class="button" id="p"> Pork </button>
     </div>  
   </div>
 
@@ -61,11 +62,18 @@
 
 <br/>
 
-<div class="container">
+<!-- <div class="container">
   <div class="grid-container-3">
     <button class="button" onclick="window.location.href='/show_food';">EAT!!!</button>
   </div>
+</div> -->
+
+<div class="container">
+  <div class="grid-container-3">
+    <button class="button" onclick="window.location.href='/show_food/' + meatType;">EAT!!!</button>
+  </div>
 </div>
+
 <!-- footer include -->
 <%- include('include/footer')%>
 <!-- /footer include -->

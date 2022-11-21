@@ -1,56 +1,61 @@
-var b_count = 0;
-const btn_b = document.getElementById('beef');
-btn_b.addEventListener('click', function onClick() {
-    if (b_count == 0){
+var meatType = "";
+
+const btn_b = document.getElementById('b');
+$("#b").click(function() {
+    $("#b").toggleClass("active");
+    if($("#b").hasClass("active")){
         btn_b.style.backgroundColor = 'red';
         btn_b.style.border = '3px dashed yellow';
         btn_b.style.color = 'white';
-        b_count = 1;
-        //could possibly set the value for db querry here as well 
-    }
-    else{
+        console.log("button clicked");
+        meatType = $(this).attr("id");
+        console.log(meatType);
+    }else{
         btn_b.style.backgroundColor = 'yellow';
         btn_b.style.border = '3px dashed red';
         btn_b.style.color = 'black';
-        b_count = 0;
+        console.log("button unclicked");
     }
-});
+})
 
-var c_count = 0;
-const btn_c = document.getElementById('chicken');
-btn_c.addEventListener('click', function onClick() {
-    if (c_count == 0){
+
+const btn_c = document.getElementById('c');
+$("#c").click(function() {
+    $("#c").toggleClass("active");
+    if($("#c").hasClass("active")){
         btn_c.style.backgroundColor = 'red';
         btn_c.style.border = '3px dashed yellow';
         btn_c.style.color = 'white';
-        c_count = 1;
-        //could possibly set the value for db querry here as well 
-    }
-    else{
+        console.log("button clicked");
+        meatType = $(this).attr("id");
+        console.log(meatType);
+    }else{
         btn_c.style.backgroundColor = 'yellow';
         btn_c.style.border = '3px dashed red';
         btn_c.style.color = 'black';
-        c_count = 0;
+        console.log("button unclicked");
     }
-});
+})
 
-var p_count = 0;
-const btn_p = document.getElementById('pork');
-btn_p.addEventListener('click', function onClick() {
-    if (p_count == 0){
+
+const btn_p = document.getElementById('p');
+$("#p").click(function() {
+    $("#p").toggleClass("active");
+    if($("#p").hasClass("active")){
         btn_p.style.backgroundColor = 'red';
         btn_p.style.border = '3px dashed yellow';
         btn_p.style.color = 'white';
-        p_count = 1;
-        //could possibly set the value for db querry here as well 
-    }
-    else{
+        console.log("button clicked");
+        meatType = $(this).attr("id");
+        console.log(meatType);
+    }else{
         btn_p.style.backgroundColor = 'yellow';
         btn_p.style.border = '3px dashed red';
         btn_p.style.color = 'black';
-        p_count = 0;
+        console.log("button unclicked");
     }
-});
+})
+
 
 var m_count = 0;
 const btn_m = document.getElementById('mexican');
