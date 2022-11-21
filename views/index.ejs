@@ -1,149 +1,73 @@
 <!-- header include -->
 <%- include('include/header')%>
-  <!-- /header include -->
-  <br />
-  <body>
+<!-- /header include -->
 
-    <div class="container">
+<br />
+<div class="container">
 
-      <table>
-        <tr>
-          <div class="grid-container-1">
-            <div ontouchstart="">
-              <div class="button" id="beef">
-                <a href="#">Beef</a>
-              </div>
-            </div>
+  <div class="grid-container-1">
+    <div class="grid-item">
+      <button class="button" id = "b"> Beef </button>
+    </div>
+    <div class="grid-item">
+      <button class="button" id = "c"> Chicken </button>
+    </div>
+    <div class="grid-item">
+      <button class="button" id="p"> Pork </button>
+    </div>  
+  </div>
 
-            <div class="grid-container-1">
-              <div ontouchstart="">
-                <div class="button" id="chicken">
-                  <a href="#">Chicken</a>
-                </div>
-
-                <div class="grid-container-1">
-                  <div ontouchstart="">
-                    <div class="button" id="pork">
-                      <a href="#">Pork</a>
-        </tr>
-      </table>
+  <div class="grid-container-2">
+    <div class="grid-item">
+      <button class="button" id="mexican">Mexican</button>
+    </div>
+    <div class="grid-item">
+      <button class="button" id="italian">Italian</button>
+    </div>
+    <div class="grid-item">
+      <button class="button" id="american">American</button>
+    </div>  
+    <div class="grid-item">
+      <button class="button" id="asian">Asian</button>
     </div>
   </div>
 
-    <table>
-      <tr>
-        <div class="grid-container-2">
-          <div ontouchstart="">
-            <div class="button" id="mexican">
-              <a href="#">Mexican</a>
-            </div>
-          </div>
-
-          <div class="grid-container-2">
-            <div ontouchstart="">
-              <div class="button" id="italian">
-                <a href="#">Italian</a>
-              </div>
-            </div>
-
-            <div class="grid-container-2"></div>
-            <div ontouchstart="">
-              <div class="button" id="american">
-                <a href="#">American</a>
-              </div>
-            </div>
-        
-
-        <div class="grid-container-2">
-          <div ontouchstart="">
-            <div class="button" id="asian">
-              <a href="#">Asian</a>
-    </table>
-    </tr>
+  <div class="grid-container-1">
+    <div class="grid-item">
+      <button class="button" id="1dollar">$</button>
     </div>
+    <div class="grid-item">
+      <button class="button" id="2dollar">$$</button>
     </div>
+    <div class="grid-item">
+      <button class="button" id="3dollar">$$$</button>
     </div>
+  </div>
 
-    <table>
-    <tr>
-    <div class="grid-container-3">
-        <div ontouchstart="">
-          <div class="button" id="1dollar">
-            <a href="#">$</a>
-            </div>
-          </div>
-          
-          <div class="grid-container-3">
-            <div ontouchstart="">
-              <div class="button" id="2dollar">
-                <a href="#">$$</a>
-                </div>
-              </div>
-             
-              <div class="grid-container-3">
-                <div ontouchstart="">
-                  <div class="button" id="3dollar">
-                    <a href="#">$$$</a>               
-                    </div>
-                  </div>
-                </table>
-              </tr>
+  <div class="grid-container-2">
+    <div class="grid-item">
+      <button class="button" id="1m"> within 1 mile</button>
+    </div>
+    <div class="grid-item"> 
+      <button class="button" id="3m"> less than 3 miles</button>
+    </div>
+    <div class="grid-item">
+      <button class="button" id="5m"> less than 5 miles</button>
+    </div>  
+    <div class="grid-item">
+      <button class="button" id="10m"> less than 10 miles </button>
+    </div>
+  </div>
+</div>
 
-              <table>
-                <tr>
-                  <div class="grid-container-4">
-                      <div ontouchstart="">
-                        <div class="button" id="1m">
-                          <a href="#">1 mile or less away!</a>
-                          </div>
-                        </div>
-                        
-                        <div class="grid-container-4">
-                          <div ontouchstart="">
-                            <div class="button" id="3m">
-                              <a href="#">3 miles or less away!</a>  
-                              </div>
-                            </div>
-                            
-                            <div class="grid-container-4">
-                              <div ontouchstart="">
-                                <div class="button" id="5m">
-                                  <a href="#">5 miles or less away!</a>
-                                
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                    
-                            <div class="grid-container-4">
-                              <div ontouchstart="">
-                                <div class="button" id="10m">
-                                  <a href="#">10 miles or less away!</a>
-                                  
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </table>
-                          </tr>
+<br/>
 
-                          <br />
+<div class="container">
+  <div class="grid-container-3">
+    <button class="button" onclick="window.location.href='/show_food/' + meatType;">EAT!!!</button>
+  </div>
+</div>
 
-                          <table>
-                            <tr>
-                          <div class="grid-container-5">
-                          <div ontouchstart="">
-                            <div class="button">
-                              <a href="window.location.href='/show_food';">WWE!?!?</a>
-                              </div>
-                            </div>
-                            <br />
-                          </body>
-                        </table>
-                          </tr>
-
-
-  <!-- footer include -->
-  <%- include('include/footer')%>
-    <!-- /footer include -->
+<!-- footer include -->
+<%- include('include/footer')%>
+<!-- /footer include -->

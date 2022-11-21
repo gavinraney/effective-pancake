@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,73 +32,61 @@
       <h1>Watcha Wanna Eat?</h1>
     </div>
 
-    <h1>Restaurants Found:</h1>
-
-    <br />
-
     <div
+      class="container"
       style="
         position: relative;
         border: 5px solid yellow;
         border-radius: 8px;
         padding: 10px;
-        background-color: lightcoral;
       "
     >
-      <ul style="list-style-type: circle; margin-left: 0; padding-left: 30px">
-        <% for(var i = 0; i < restaurants.length; i++) {%>
-        <li>
-          <div>
-            <h5>
-              Restaurant: <%= restaurants[i].r_name %>
-              <button
-                style="
-                  background-color: green;
-                  color: white;
-                  border-radius: 15px;
-                  border: 1px dashed white;
-                  font-size: 18px;
-                "
-                onclick="window.location.href='/accept/<%= restaurants[i].r_name%>';"
-              >
-                Yes
-              </button>
-              <button
-                style="
-                  background-color: red;
-                  color: white;
-                  border-radius: 15px;
-                  border: 1px dashed white;
-                  font-size: 18px;
-                "
-              >
-                No
-              </button>
-            </h5>
-          </div>
-          <br />
-        </li>
-        <%}%>
-      </ul>
+      <h2 style="font-family: 'Merriweather', serif">
+        Enter your email to receive directions to your selected restaurant!
+      </h2>
+      <form>
+        <label for="email">Email: </label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="your email"
+        /><br />
+        <button
+        class="button"
+        style="
+          background-color: yellow;
+          color: black;
+          text-align: center;
+          font-size: 15px;
+          padding: 20px;
+          border-radius: 15px;
+          border: 3px dashed red;
+          font-family: 'Merriweather', serif;
+        "
+        onclick="window.location.href='/';"
+      >
+        Submit
+      </button>
+      </form>
+      <br />
+      <button
+        class="button"
+        style="
+          background-color: yellow;
+          color: black;
+          text-align: center;
+          font-size: 15px;
+          padding: 20px;
+          border-radius: 15px;
+          border: 3px dashed red;
+          font-family: 'Merriweather', serif;
+        "
+        onclick="window.location.href='/';"
+      >
+        Home
+      </button>
     </div>
-
-    <br />
-    <button
-      class="button"
-      style="
-        background-color: yellow;
-        color: black;
-        text-align: center;
-        font-size: 15px;
-        padding: 20px;
-        border-radius: 15px;
-        border: 3px dashed red;
-        font-family: 'Merriweather', serif;
-      "
-      onclick="window.location.href='/';"
-    >
-      Home
-    </button>
 
     <div
       class="footer"
