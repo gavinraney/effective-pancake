@@ -56,6 +56,22 @@ $("#p").click(function() {
     }
 })
 
+// $("#emailBtn").click(function() {
+//     console.log("email");
+//         Email.send({
+//           Host: "smtp.gmail.com",
+//           Username: "Eat.WWE.Good.Food.Now@gmail.com",
+//           Password: "funFood123",
+//           To: 'prjunjulas@gmail.com',
+//           From: "Eat.WWE.Good.Food.Now@gmail.com",
+//           Subject: "Sending Email using javascript",
+//           Body: "Well that was easy!!",
+//         })
+//           .then(function (message) {
+//             alert("mail sent successfully")
+//           })
+//           .catch(error => console.error(error))
+// })
 
 var m_count = 0;
 const btn_m = document.getElementById('mexican');

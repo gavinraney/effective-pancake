@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const MongoClient = require('mongodb').MongoClient
 const app = express();
+const nodemailer = require("nodemailer")
 
 dotenv.config({path:'config.env'});
 //const PORT = process.env.PORT || 8080
@@ -35,6 +36,36 @@ app.get('/', (req,res)=>{
     res.render('index');
 })
 
+app.post("/sendEmail/:url_piece", function(req,res){
+    var from = "Eat.WWE.Good.Food.Now@gmail.com";
+    var subject = "Eat";
+    //var message = req.params.d_url;
+
+    var transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'Eat.WWE.Good.Food.Now@gmail.com',
+            pass: 'qfjmgsinalsvfdus'
+        }
+    });
+
+    var mailOptions = {
+        from: from,
+        to: req.body.to,
+        subject: subject,
+        text: "https://www.google.com/maps/dir/Harrison+Plaza,+Florence,+AL+35630/" + req.params.url_piece + ",+University+Commons,+Florence,+AL/"
+    };
+
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error){
+            console.log(error)
+        } else {
+            console.log("email sent: " + info.reponse)
+        }
+        res.redirect('/')
+    })
+})
+
 
 app.get('/show_food/:meat', (req,res)=>{
     // res.render('show_food');
@@ -51,12 +82,18 @@ app.get('/show_food/:meat', (req,res)=>{
 })
 
 
-app.get('/questions', (req,res)=>{
-    res.render('questions');
-})
-
 app.get('/accept/:r_name', (req,res)=>{
-    res.render('accept');
+    //res.render('accept');
+    console.log(req.params.r_name);
+    db.collection('restaurants').find({
+        r_name: req.params.r_name
+    }).toArray()
+      .then(results => {
+        res.render('accept', {restaurants: results})
+        console.log(results)
+      })
+      .catch(error => console.error(error))
+
 })
 
 app.get('/aboutus', (req,res)=>{
