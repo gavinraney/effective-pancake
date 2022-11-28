@@ -51,3 +51,7 @@
           <li> If no, restart questions. </li>
       </ul>
 </ul>
+
+EMAIL AND PASSWORD FOR WWE EMAILING SERVICE: 
+Email: Eat.WWE.Good.Food.Now@gmail.com
+pass: funFood123
