@@ -48,8 +48,8 @@
     >
       <ul style="list-style-type: circle; margin-left: 0; padding-left: 30px">
         <% for(var i = 0; i < restaurants.length; i++) {%>
-        <li>
-          <div>
+          <div id = "<%=restaurants[i].r_name %>">
+          <li>
             <h5>
               Restaurant: <%= restaurants[i].r_name %>
               <button
@@ -73,6 +73,7 @@
                   border: 1px dashed white;
                   font-size: 18px;
                 "
+                class = "no"
               >
                 No
               </button>

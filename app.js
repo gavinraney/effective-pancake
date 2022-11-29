@@ -39,7 +39,6 @@ app.get('/', (req,res)=>{
 app.post("/sendEmail/:url_piece", function(req,res){
     var from = "Eat.WWE.Good.Food.Now@gmail.com";
     var subject = "Eat";
-    //var message = req.params.d_url;
 
     var transporter = nodemailer.createTransport({
         service: 'gmail',
