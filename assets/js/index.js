@@ -1,3 +1,5 @@
+
+
 var meatType = "";
 
 const btn_b = document.getElementById('b');
@@ -56,22 +58,13 @@ $("#p").click(function() {
     }
 })
 
-// $("#emailBtn").click(function() {
-//     console.log("email");
-//         Email.send({
-//           Host: "smtp.gmail.com",
-//           Username: "Eat.WWE.Good.Food.Now@gmail.com",
-//           Password: "funFood123",
-//           To: 'prjunjulas@gmail.com',
-//           From: "Eat.WWE.Good.Food.Now@gmail.com",
-//           Subject: "Sending Email using javascript",
-//           Body: "Well that was easy!!",
-//         })
-//           .then(function (message) {
-//             alert("mail sent successfully")
-//           })
-//           .catch(error => console.error(error))
-// })
+$(".no").click(function(){
+    x = $(this).closest('div').attr('id');
+    console.log(x);
+    document.getElementById(x).style.display = "none";
+})
+
+
 
 var m_count = 0;
 const btn_m = document.getElementById('mexican');
